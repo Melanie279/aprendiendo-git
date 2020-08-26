@@ -5,7 +5,10 @@ def resta(a,b):
 def multi(a,b):
     return a*b
 def div(a,b):
-    return a/b
+	if(b==0):
+		return 0
+	else:
+    	return a/b
 a=int(input("Ingrese primer numero:"))
 b=int(input("Ingrese segundo numero:"))
 print (suma(a,b))
