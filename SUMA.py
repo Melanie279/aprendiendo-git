@@ -8,7 +8,7 @@ def div(a,b):
     return a/b
 a=int(input("Ingrese primer numero:"))
 b=int(input("Ingrese segundo numero:"))
-print suma(a,b)
-print resta(a,b) 
-print multi(a,b)
-print div(a,b)
+print (suma(a,b))
+print (resta(a,b))
+print (multi(a,b))
+print (div(a,b))
